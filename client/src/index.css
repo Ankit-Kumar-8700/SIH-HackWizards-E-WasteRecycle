@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Inter&family=Mooli&family=Ubuntu:wght@500&display=swap');
+
+
+
+.first  .swiper {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+.first  .swiper-slide {
+    text-align: center !important;
+    font-size: 18px !important;
+    background: #fff !important;
+  
+    /* Center slide text vertically */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+.first  .swiper-slide img {
+    display: block !important;
+    width: 100% !important;
+    object-fit: cover !important;
+  }
+  
+  
+ 
+  .second .swiper {
+    width: 500px !important;
+    height: 500px !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 35% !important;
+    margin-left: -150px !important;
+    margin-top: -150px !important;
+  }
+  
+ .second .swiper-slide {
+    background-position: center !important;
+    background-size: cover !important;
+  }
+  
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    left:-64px !important;
+  }
